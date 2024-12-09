@@ -19,7 +19,7 @@ In the following, brief descriptions of all provided files are given:
 The provided codes have been written in the following settings:
 
 - matplotlib == 3.7.0
-- mne ==1.4.2
+- mne == 1.4.2
 - pandas == 2.2.3
 - torch == 1.12.0+cu116
 - scikit-learn == 1.2.2
