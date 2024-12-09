@@ -2,7 +2,7 @@
 
 This study implements the proposed HybridDomainSleepNet model validation with the public Montreal Archive of Sleep Studies (MASS)-SS3 and DREAMS Patients (DRM-Pat) datasets. Simultaneous validation was also performed using a homemade sleep dataset, the BP-SleepX.
 
-Of these, the MASS-SS3 dataset can be accessed through the link http://ceams-carsm.ca/mass/ , and the DRM-Pat dataset can be accessed through the link https://zenodo.org/records/2650142. 
+Of these, the MASS-SS3 dataset can be accessed through the link http://ceams-carsm.ca/mass/ , and the DRM-Pat dataset can be accessed through the link https://zenodo.org/records/2650142.
 
 In addition, the homemade BP-SleepX dataset can be used by sending an email request for authorization to the corresponding author.
 
@@ -16,7 +16,7 @@ In the following, brief descriptions of all provided files are given:
 - `Index_calculation.py` : a function to calculate  the model prediction results.
 
 
-The provided codes have been written in the following settings:  根据实际的修改一下
+The provided codes have been written in the following settings:
 
 - matplotlib == 3.7.0
 - mne ==1.4.2
