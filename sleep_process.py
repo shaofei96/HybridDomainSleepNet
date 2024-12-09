@@ -2,7 +2,7 @@ import numpy as np
 import os
 import pandas as pd
 from mne.io import read_raw_edf
-from DE_PSD import DE_PSD
+from DE import DE
 
 
 def AddContext(x, context, label=False, dtype=float):
@@ -52,7 +52,7 @@ for i in range(len(data_list)):
     for j in range(0, raw_data_list.shape[0]):
         data = raw_data_list[j]
         # print("raw_data_list:", data.shape)
-        MYpsd[j], MYde[j] = DE_PSD(data, stft_para)
+        MYde[j] = DE(data, stft_para)
 
     print(MYde.shape, end=' ')
 

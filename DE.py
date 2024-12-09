@@ -5,7 +5,7 @@ import scipy.io as sio
 from scipy.fftpack import fft,ifft
 
 
-def DE_PSD(data,stft_para):
+def DE(data,stft_para):
     '''
     compute DE and PSD
     --------
@@ -62,6 +62,6 @@ def DE_PSD(data,stft_para):
             de[j][p] = math.log(100*E + 1e-12,2)
             #de(j,i,p)=log2((1+E)^4)
     
-    return psd,de
+    return de
 
 
